@@ -159,32 +159,7 @@ export default function DressCodeSection() {
           </h3>
           <p className="text-lg text-white">{dressCode.note}</p>
 
-          <Card 
-          style={{ display: 'none' }}
-          className="max-w-md mx-auto bg-primary/10 border-primary/20">
-            <CardContent className="p-8 text-center space-y-4">
-              <h3 className="font-script text-3xl text-foreground">
-                Confirma tu asistencia
-              </h3>
-              <p className="text-muted-foreground">
-                {dressCode.confirmationMessage}
-              </p>
-              <Button
-                onClick={handleConfirmPapa}
-                className="bg-blue-600 hover:bg-blue-700 text-white rounded-full px-8 py-3 w-full"
-              >
-                <Phone className="w-4 h-4 mr-2" />
-                Confirmar con Papá
-              </Button>
-              <Button
-                onClick={handleConfirmMama}
-                className="bg-pink-600 hover:bg-pink-700 text-white rounded-full px-8 py-3 w-full"
-              >
-                <Phone className="w-4 h-4 mr-2" />
-                Confirmar con Mamá
-              </Button>
-            </CardContent>
-          </Card>
+          
         </div>
       </div>
     </section>
