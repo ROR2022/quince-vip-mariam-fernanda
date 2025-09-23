@@ -84,35 +84,47 @@ export const premiumDemoData = {
     description: "Una colección de mis fotos favoritas preparándome para este gran día",
     images: [
       { 
-        src: "/images/rapunzel5.jpg", 
+        src: "/images/mariamFernanda1.jpg", 
         alt: "Sesión fotográfica 1", 
         caption: "Momentos Inolvidables",
         category: "preparacion"
       },
       { 
-        src: "/images/rapunzel6.jpg", 
+        src: "/images/mariamFernanda2.jpg", 
         alt: "Sesión fotográfica 2", 
         caption: "Momentos Inolvidables",
         category: "vestido"
       },
       { 
-        src: "/images/rapunzel7.jpg", 
+        src: "/images/mariamFernanda3.jpg", 
         alt: "Sesión fotográfica 3", 
         caption: "Momentos Inolvidables",
         category: "alegria"
       },
       { 
-        src: "/images/rapunzel8.jpg", 
+        src: "/images/mariamFernanda4.jpg", 
         alt: "Sesión fotográfica 4", 
         caption: "Momentos Inolvidables",
         category: "celebracion"
       },
       {
-        src: "/images/rosy05.jpg", 
+        src: "/images/mariamFernanda5.jpg", 
         alt: "Sesión fotográfica 5", 
         caption: "Momentos Inolvidables",
         category: "amistad"
       },
+      {
+        src: "/images/mariamFernanda6.jpg", 
+        alt: "Sesión fotográfica 6", 
+        caption: "Momentos Inolvidables",
+        category: "familia"
+      },
+      {
+        src: "/images/mariamFernanda7.jpg", 
+        alt: "Sesión fotográfica 7", 
+        caption: "Momentos Inolvidables",
+        category: "diversion"
+      }
     ]
   },
   
