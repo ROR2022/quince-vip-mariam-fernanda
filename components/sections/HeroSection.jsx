@@ -54,7 +54,7 @@ export default function HeroSection() {
       //ref={sectionRef}
       style={{
         backgroundImage: `url('/images/mariamFernanda3.jpg')`,
-        backgroundSize: 'cover',
+        backgroundSize: 'contain',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         backgroundColor: '#89ac76',
