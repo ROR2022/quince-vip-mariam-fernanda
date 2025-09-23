@@ -53,8 +53,8 @@ export default function HeroSection() {
     <section 
       //ref={sectionRef}
       style={{
-        backgroundImage: `url('/images/mariamFernanda3.jpg')`,
-        backgroundSize: 'contain',
+        backgroundImage: `url('/images/fondoLila&Dorado1.jpg')`,
+        backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         backgroundColor: '#89ac76',
@@ -71,7 +71,24 @@ export default function HeroSection() {
       {/* Contenido principal - Usar solo animación CSS, no scroll-based */}
       <div 
        style={{
-        //backgroundColor:'#C8BFE780'
+        backgroundImage: `url('/images/mariamFernanda3.jpg')`,
+        backgroundSize: 'contain',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        width: '95vw',
+        height: '30vh',
+        borderRadius: '10%',
+        marginBottom: '20px',
+        //backgroundColor: '#89ac76',
+      
+        position: 'relative',
+       }}
+      >
+        
+      </div>
+      <div 
+       style={{
+        //backgroundImage: `url('/images/mariamFernanda3.jpg')`,
        }}
         className="bg-slate-400 bg-opacity-50 p-6 rounded-2xl relative z-10 text-center space-y-6 px-4"
       >
@@ -116,11 +133,7 @@ export default function HeroSection() {
           </div>
         </div>
 
-        <p 
-        style={{display:'none'}}
-        className="text-lg text-muted-foreground italic max-w-md mx-auto">
-          &ldquo;{couple.quote}&rdquo;
-        </p>
+        
       </div>
     </section>
     
