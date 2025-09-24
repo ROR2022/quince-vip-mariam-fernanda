@@ -15,8 +15,8 @@ export default function HeroSection() {
   const [isVisible, setIsVisible] = useState(false);
   
 
-  const basicClass="font-script text-4xl text-red-500 mb-4 italic";
-  const completeClass="font-script text-4xl text-red-500 mb-4 scale-up-center italic";
+  const basicClass="font-script text-4xl text-amber-400 mb-4 italic";
+  const completeClass="font-script text-4xl text-amber-400 mb-4 scale-up-center italic";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -36,20 +36,8 @@ export default function HeroSection() {
     }
   },[scrollPosition])
 
-  
-
-  // Solo usar animación de background para el Hero, no scroll animations
-  //const animationConfig = getAnimationConfig('reception')
-  //const { ref: sectionRef, style: animationStyle } = useScrollAnimation(
-    //animationConfig.options,
-    //'background', // Solo animar el background
-    //0, // Sin delay
-    //false // No carga inmediata para el background
-  //)
 
   return (
-    
-    
     <section 
       //ref={sectionRef}
       style={{
@@ -65,9 +53,6 @@ export default function HeroSection() {
       //id="home" 
       className="min-h-screen flex flex-col justify-center items-center relative pt-20"
     >
-      
-      
-      
       {/* Contenido principal - Usar solo animación CSS, no scroll-based */}
       <div 
        style={{
@@ -84,7 +69,6 @@ export default function HeroSection() {
         position: 'relative',
        }}
       >
-        
       </div>
       <div 
        style={{
@@ -104,21 +88,14 @@ export default function HeroSection() {
             </span>
           ))}
         </h1>
-
-      
         <div className="space-y-2">
           <div 
           style={{
             textShadow: '4px 4px 8px rgba(0, 0, 0, 0.5)',
           }}
-          className="text-6xl text-amber-500 font-main-text">
+          className="text-6xl text-purple-500 font-main-text">
             {couple.initials}
           </div>
-          <h2 
-          style={{display:'none'}}
-          className="font-script text-4xl text-foreground">
-            {couple.bride}  {couple.groom}
-          </h2>
         </div>
 
         <div 
