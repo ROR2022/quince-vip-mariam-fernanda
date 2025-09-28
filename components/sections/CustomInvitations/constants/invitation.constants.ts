@@ -3,16 +3,17 @@
 // ================================================================
 
 import { EventInfo, RelationOption } from '../types/invitation.types';
+import { datosQuince } from '@/components/sections/data/datosQuince';
 
 export const ADMIN_PASSWORD = "aurora1234";
 
 export const EVENT_INFO: EventInfo = {
-  quinceaneraName: "Rosy Abigail",
-  date: "Viernes 05 de Diciembre 2025",
-  time: "7:00 PM",
-  venue: "Salón de Eventos La Mansión",
-  dressCode: "Formal -Rosa solo la quinceañera-",
-  invitationUrl: "https://quince-vip-rosy-abigail.vercel.app/"
+  quinceaneraName: datosQuince.nombreQuince,
+  date: datosQuince.recepcion.fecha,
+  time: datosQuince.recepcion.hora,
+  venue: datosQuince.recepcion.lugar,
+  dressCode: datosQuince.dressCode,
+  invitationUrl: datosQuince.invitationUrl
 } as const;
 
 export const SUGGESTED_MESSAGES = [

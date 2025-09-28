@@ -9,6 +9,7 @@ import {
   Users,
   CheckCircle,
 } from "lucide-react";
+import { datosQuince } from "@/components/sections/data/datosQuince";
 
 const AttendanceConfirmation = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -22,7 +23,7 @@ const AttendanceConfirmation = () => {
   const [showSuccess, setShowSuccess] = useState(false);
 
   // Número de WhatsApp de destino
-  const whatsappNumber = "5217131191636"; // +52 1 713 119 1636
+  const whatsappNumber = datosQuince.attendandaceConfirmationNumber; // Reemplaza con el número real
 
   const handleInputChange = (
     e: React.ChangeEvent<
