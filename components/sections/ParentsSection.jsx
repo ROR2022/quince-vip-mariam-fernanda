@@ -66,10 +66,10 @@ export default function ParentsSection() {
                   </h3>
                   <div className="space-y-2 text-white">
                     <p className="text-xl font-medium">
-                      Ana Gabriela Morales Moreno
+                      Felix López Izquierdo
                     </p>
                     <p className="text-xl font-medium">
-                      Felix López Izquierdo
+                      Ana Gabriela Morales Moreno
                     </p>
                   </div>
                 </div>

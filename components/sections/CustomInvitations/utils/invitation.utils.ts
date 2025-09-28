@@ -69,7 +69,7 @@ export const generateWhatsAppMessage = (formData: FormData): string => {
 
 ${formData.personalMessage}
 
-Tienes una invitación especial a la Quinceañera de:
+Tienes una invitación especial de la Quinceañera:
 ✨ ${EVENT_INFO.quinceaneraName} ✨
 
 📅 Fecha: ${EVENT_INFO.date}
