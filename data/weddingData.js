@@ -62,20 +62,19 @@ export const weddingData = {
       color: "primary"
     },
     {
-      id: "cena",
-      name: "Cena",
-      time: "8:00",
-      icon: "🍽️", // Plato con cubiertos - cena elegante
-      color: "primary"
-    },
-    {
       id: "brindis",
       name: "Brindis",
-      time: "9:45",
+      time: "8:30",
       icon: "🥂", // Copas de champagne - celebración y brindis
       color: "secondary"
     },
-    
+    {
+      id: "cena",
+      name: "Cena",
+      time: "9:00",
+      icon: "🍽️", // Plato con cubiertos - cena elegante
+      color: "primary"
+    },
   ],
 
   // 👗 Código de vestimenta
