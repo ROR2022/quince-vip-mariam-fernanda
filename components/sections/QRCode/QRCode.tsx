@@ -76,12 +76,12 @@ const QRCode = () => {
               fontFamily: 'serif'
             }}
           >
-            ZOE MERARI
+            MARIAM FERNANDA
           </h1>
 
           <div className='mb-6'>
             <Image
-              src="/images/zoeMerari3.jpg"
+              src="/images/mariamFernanda7.jpg"
               alt="Frida"
               width={200}
               height={150}
